@@ -1,0 +1,5 @@
+.eslintrc.js
+.gitignore
+docker-compose.*
+mongo-init.js
+node_modules

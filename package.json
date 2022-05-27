@@ -1,0 +1,33 @@
+{
+  "name": "grey-market",
+  "version": "1.0.0",
+  "description": "Coding assignment for grey market labs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "start:dev": "export NODE_ENV=development && npm run start",
+    "start:prod" : "export NODE_ENV=production && node ./src/index.js",
+    "lint": "npm run eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wes Dingman",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "chalk": "^4.1.2",
+    "express": "^4.18.1",
+    "express-json-validator-middleware": "^3.0.1",
+    "glob": "^8.0.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "winston": "^3.7.2"
+  }
+}
